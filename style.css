@@ -54,9 +54,8 @@ hr {
   outline: none !important;
 }
 
-
 button {
-  outline: none; !important;
+  outline: none !important;
   border-color: #91c8ff;
   border-width: 2px;
   color: black;
@@ -76,6 +75,7 @@ button:hover {
   transition: background-color ease 0.5s;
   box-shadow: none !important;
   outline: none !important;
+  -webkit-appearance: none;
 }
 
 .divider {
