@@ -16,7 +16,9 @@
 @media (min-width: 1024px) {
   ul {
     width: 60vw;
-    margin: 0 auto;
+  }
+  li {
+    margin: 0 30px 20px 30px;
   }
 }
 
@@ -32,8 +34,6 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   background-color: #f7f7f7;
-  margin-bottom: 20px;
-  margin-top: 20px;
   min-height: 100%;
   width: 100%;
 }
@@ -141,9 +141,12 @@ input {
 ::placeholder {
   color: rgb(185, 185, 185);
 }
-
+ul {
+  margin: 0 auto;
+  padding: 0;
+}
 li {
-  margin: 0 30px 20px 0;
+  margin: 0 35px 20px 30px;
   padding: 5px 5px 5px 10px;
   background-color: white;
   text-decoration: none;
