@@ -16,9 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
   };
 
   //If searchbutton is pressed run search();
-  document.getElementById('searcher').onclick = function() {
-    search();
-  };
+  document.getElementById('searcher').onclick = search;
 
   //Wikipedia api opensearch XMLHttprequest request
   //with 'searchTxt', and parse JSON data

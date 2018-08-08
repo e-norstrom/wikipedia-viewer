@@ -1,6 +1,7 @@
 
 <html>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
       <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
       <link rel="stylesheet" href="style.css">
@@ -12,12 +13,11 @@
         <hr></hr>
       </div>
       <div class="wrapper">
-        <input id="textInput" type="text" placeholder="Wiki."></input>
+        <input id="textInput" type="text" placeholder="Search Wikipedia"></input>
       </div>
-      <div class="wrapper">
-        <div class="inner"><button id="searcher" type="submit" class="btns">Search</button></div>
-        <div class="divider"></div>
-        <div class="inner"><button id="randomer" class="btns" onclick=window.open("https://en.wikipedia.org/wiki/Special:Random");>Random</button></div>
+      <div class="buttons-wrapper">
+        <div class="inner inner-search"><button id="searcher" type="submit" class="btns">Search</button></div>
+        <div class="inner inner-random "><button id="randomer" class="btns" onclick=window.open("https://en.wikipedia.org/wiki/Special:Random");>Random</button></div>
       </div>
       <div></div>
     </main>
